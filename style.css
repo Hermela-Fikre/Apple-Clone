@@ -25,7 +25,7 @@ footer {
   width: 70%;
   margin: 2rem auto 0 auto;
   font-size: 10px;
-  font-family: "Lucida Grande";
+  font-family: "Lucida Grande", sans-serif;
   color: rgb(110, 110, 110);
 }
 
@@ -103,10 +103,6 @@ footer > p > a:first-child {
   background: linear-gradient(0deg, rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141));
 }
 
-.search-bar {
-  background: linear-gradient(0deg, rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141));
-}
-
 .main-nav ul li {
   flex-grow: 1;
   list-style-type: none;
@@ -119,6 +115,7 @@ footer > p > a:first-child {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(0deg, rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141));
 }
 
 .search-bar input {
@@ -202,5 +199,3 @@ header img:last-child:hover {
   grid-auto-flow: column;
   column-gap: 2px;
 }
-
-
