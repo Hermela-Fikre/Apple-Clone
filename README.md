@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Hermela-Fikre/Apple-Clone/tree/feature_branch)
+[Live Demo Link](https://raw.githack.com/Hermela-Fikre/Apple-Clone/feature_branch/index.html)
 
 ## Getting Started
 
