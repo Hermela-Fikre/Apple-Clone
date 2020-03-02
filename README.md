@@ -2,7 +2,7 @@
 
 > This project consists of building an HTML document that matches the appearance of mint.com’s signup page
 
-> ![screenshot](mint-screenshot.png)
+> ![screenshot](img/apple-screenshot.png)
 
 ## Built With
 
@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/glowreeyah/Html-Form/signup-page/signup.html)
+[Live Demo Link](https://raw.githack.com/Hermela-Fikre/Apple-Clone/tree/feature_branch)
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ Fork this project to your local machine
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [https://github.com/glowreeyah/Microverse-hermela-glory/issues](issues/).
+Feel free to check the [https://github.com/Hermela-Fikre/Apple-Clone/issues](issues/).
 
 ## Show your support
 
