@@ -21,7 +21,6 @@
   background: url("img/home.jpg") bottom;
 }
 
-
 footer {
   width: 70%;
   margin: 2rem auto 0 auto;
@@ -35,7 +34,12 @@ footer {
   justify-content: space-between;
 }
 
-.footer-nav, .footer-nav ul {
+.footer-nav {
+  display: flex;
+  align-items: center;
+}
+
+.footer-nav ul {
   display: flex;
   align-items: center;
 }
@@ -45,7 +49,12 @@ footer {
   list-style-type: none;
 }
 
-footer > p > a:first-child::after, .footer-nav li::after {
+footer > p > a:first-child::after {
+  content: "|";
+  padding-left: 0.5rem;
+}
+
+.footer-nav li::after {
   content: "|";
   padding-left: 0.5rem;
 }
@@ -90,8 +99,12 @@ footer > p > a:first-child {
   background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
 }
 
-.main-nav li, .search-bar {
-  background: linear-gradient(0deg, rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141) );
+.main-nav li {
+  background: linear-gradient(0deg, rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141));
+}
+
+.search-bar {
+  background: linear-gradient(0deg, rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141));
 }
 
 .main-nav ul li {
@@ -114,7 +127,7 @@ footer > p > a:first-child {
   height: 60%;
   border: 0;
   box-shadow: inset 0 1px 1px 1px rgb(48, 48, 48),
-  inset 0 -1px 1px 1px rgb(128, 128, 128);
+          inset 0 -1px 1px 1px rgb(128, 128, 128);
   border-radius: 10px;
   background-color: rgba(130, 130, 130, 0.32);
   background-image: url("img/mag.svg");
